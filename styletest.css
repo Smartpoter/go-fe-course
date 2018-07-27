@@ -1,0 +1,21 @@
+.div2 {
+    display: inline;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+}
+.div3 {
+    display: inline-block;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+}
+.div4 {
+    display: inline-block;
+    margin: 20px;
+    width: 100px;
+    height: 100px;  
+    border: solid 2px;
+}
