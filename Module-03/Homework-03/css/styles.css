@@ -1,0 +1,98 @@
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+}
+header {
+  padding: 77px 0px 105px;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.site-navigation {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.menu {
+  padding: 0;
+  margin: 0 auto;
+  width: 574px;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 103px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #626262;
+  text-transform: uppercase;
+}
+
+.box {
+  display: inline-block;
+  width: 420px;
+}
+
+.box:not(:nth-child(2n)) {
+  margin-right: 60px;
+}
+
+.box:not(:nth-child(n + 5)) {
+  margin-bottom: 130px;
+}
+
+section {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.button {
+  text-align: center;
+  margin-top: 58px;
+  margin-bottom: 71px;
+}
+
+button {
+  font-size: 20px;
+  line-height: 24px;
+  width: 164px;
+  height: 60px;
+  background: white;
+  color: #626262;
+  border: solid 1px #626262;
+  cursor: pointer;
+  outline: none;
+}
+
+p {
+  font-size: 14px;
+  color: #b4ad9e;
+  line-height: 24px;
+}
+
+.box p:nth-child(2) {
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #b4ad9e;
+}
+
+.box h2:nth-child(3) {
+  font-size: 30px;
+  color: #626262;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #03a9f4;
+}
